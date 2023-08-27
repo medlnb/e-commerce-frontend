@@ -1,0 +1,19 @@
+.reviews--container {
+  overflow: scroll;
+  max-height: 10rem;
+}
+.reviews--input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  width: 100%;
+}
+.reviews--comment {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.reviews--comment button {
+  background: none;
+}

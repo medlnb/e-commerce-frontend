@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+  padding: .5rem;
+  position: relative;
+  color: white;
+}
+
+.search{
+  display: flex;  
+  gap: 10px;
+  align-items: center;
+  padding: .3rem;
+  border-bottom: 1px solid gray;
+}
+
+.search input{
+  background: none;
+  border: none;
+}

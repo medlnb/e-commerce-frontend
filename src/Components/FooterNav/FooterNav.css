@@ -1,0 +1,14 @@
+.FooterNav--container {
+}
+.FooterNav--button {
+  font-size: 1rem;
+  padding: .5rem;
+  background: #2e2e30;
+  width: 2.5rem;
+  aspect-ratio: 1/ 1;
+  color: white;
+  margin: 0 .2rem;
+}
+.selected--FooterNav--button {
+  background: linear-gradient(to right, #ff626d, #fcad72);
+}

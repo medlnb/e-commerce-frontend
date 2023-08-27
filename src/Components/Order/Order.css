@@ -1,0 +1,49 @@
+.order-container{
+  display: flex;
+  gap: 1rem;
+  padding: .5rem;
+}
+
+.order-container button{
+  background: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.order-container p{
+  font-size: .8rem;
+}
+
+.order-detail {
+  height: 5rem;
+  width: 100%;
+  background: #333335;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  color: white;
+  border-radius: .5rem;
+}
+.order-detail img {
+  height: 100%;
+  padding: 1rem;
+}
+.vertical-line {
+  height: 50%;
+  width: 2px;
+  background: white;
+}
+.size--controll{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.size--controll button{
+  border: none;
+  width: 1.3rem;
+  border-radius: 50%;
+  background: #515153;
+  color: white;
+  font-size: 1.2rem;
+}

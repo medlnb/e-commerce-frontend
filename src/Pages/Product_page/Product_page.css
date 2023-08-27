@@ -1,0 +1,138 @@
+.Product_page * {
+  color: white;
+}
+.top--container {
+  background: linear-gradient(to right, #ff626d, #fcad72);
+  padding: 5rem;
+  display: flex;
+  height: 30rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product--left {
+  background: #3d3c41;
+  height: 120%;
+  transform: translateY(-10%);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+.product--left img {
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+  position: relative;
+  width: 110%;
+}
+.product--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20rem;
+  height: 90%;
+}
+.product--title {
+  white-space: nowrap;
+}
+
+.product--payment {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.ADD_TO_CART {
+  width: 10rem;
+  background: #3d3c41;
+  font-size: 0.7rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.ADD_TO_CART:hover {
+  background: #504e56;
+}
+
+.size--selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1.5rem, 1fr));
+  gap: 1.5rem;
+  white-space: normal;
+}
+.size--button {
+  max-width: 2rem;
+  aspect-ratio: 1 / 1;
+  background: none;
+  border-radius: 50%;
+}
+.size--button:hover {
+  background: #ff646d;
+}
+.select--size {
+  background: white;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+}
+.product--colors {
+}
+.color--selector {
+  width: 4rem;
+  aspect-ratio: 1 / 1;
+  background: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+}
+.selected_color {
+  outline: 2px solid white;
+}
+.color--selector img {
+  width: 100%;
+}
+.lower--bottom--container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.bottom--container {
+  position: relative;
+  top: -2.75rem;
+}
+.description {
+  position: relative;
+  display: inline-block;
+  left: 30%;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.Bottom_Product_page_nav {
+  white-space: nowrap;
+}
+.Bottom_Product_page_nav button {
+  margin-right: 1rem;
+  background: none;
+  color: white;
+}
+.left--lower--bottom--container {
+  width: 30%;
+}
+.left--lower--bottom--container h4 {
+  margin-top: 2rem;
+}
+.left--lower--bottom--container p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+.CHARACTERISTICS p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.selected_size {
+  background: black;
+}

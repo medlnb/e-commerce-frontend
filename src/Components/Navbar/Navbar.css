@@ -1,0 +1,22 @@
+.nav {
+  background: #333235;
+  min-width: 13rem;
+  padding: 2rem;
+  height: 100vh;
+}
+.logo {
+  color: white;
+  display: inline-block;
+}
+.com {
+  display: inline-block;
+  color: rgb(194, 194, 194);
+}
+.nav_element {
+  border: none;
+  display: block;
+  background: none;
+  margin: 1.5rem 0;
+  color: white;
+}
+

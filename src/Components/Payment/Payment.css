@@ -1,0 +1,72 @@
+.Payment {
+  background: linear-gradient(to right, #ff626d, #fcad72);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card--detail {
+  padding: 5rem 2rem;
+}
+.card--detail > * {
+  margin-top: 1rem;
+}
+.bottom--payment {
+  background: #141316;
+}
+.bottom--payment p {
+  padding: 2rem;
+}
+.banks {
+  display: flex;
+  justify-content: space-between;
+}
+.banks img {
+  width: 20%;
+}
+.card--input {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.card--input::placeholder {
+  color: white;
+}
+.digit--input {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 2px solid white;
+  width: 2rem;
+}
+.cart--date {
+  display: flex;
+  align-items: end;
+  gap: 0.3rem;
+}
+.card--back {
+  display: flex;
+  justify-content: space-between;
+}
+.three--digit{
+  width: 2.5rem;
+}
+.number--input {
+  color: white;
+}
+.number--input::-webkit-inner-spin-button,
+.number--input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.checkout{
+  background: #3d3d3f;
+  color: white;
+  width: 100%;
+  padding: .8rem;
+  margin-top: 4rem;
+  border-radius: 2rem;
+}

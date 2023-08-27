@@ -1,0 +1,33 @@
+.product {
+  text-align: center;
+  max-width: 30rem;
+  color: white;
+}
+.top {
+  background: #2e2e30;
+  padding: 0.5rem;
+}
+.dark {
+  background: #3f3f41;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+.shoe_img {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  width: 90%;
+  aspect-ratio: 1/.6;
+}
+.title {
+  text-align: start;
+}
+.bottom {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+.lower {
+  display: flex;
+  justify-content: space-between;
+}

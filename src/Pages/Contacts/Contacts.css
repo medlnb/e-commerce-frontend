@@ -1,0 +1,23 @@
+.contacts--container {
+  display: flex;
+}
+
+.contacts--top {
+  color: white;
+  padding: 2rem;
+}
+.contacts--top p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.contactForm_conatiner {
+  margin: 0 auto;
+  width: 30rem;
+  background-color: none;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.contactForm_conatiner > * {
+  margin-top: 0.8rem;
+}

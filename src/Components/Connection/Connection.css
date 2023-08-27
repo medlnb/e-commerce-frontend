@@ -1,0 +1,25 @@
+.Connection {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 1rem;
+  background: #333235;
+  width: 7rem;
+  z-index: 1;
+}
+.Connection * {
+  color: white;
+}
+.Connection button {
+  border: none;
+  background: none;
+}
+.icon-text {
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 5px;
+}
+.icon-text:hover {
+  gap: 10px;
+}
+
